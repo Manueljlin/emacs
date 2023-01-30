@@ -286,6 +286,7 @@ Must be one of `mocha`, `macchiato`, `frappe`, or `latte`"
                (warning :foreground ,ctp-peach)
                (tooltip :foreground ,ctp-overlay2 :background ,ctp-surface0)
                (trailing-whitespace :inherit warning)
+               (fill-column-indicator :foreground ,ctp-surface0)
                (window-divider :foreground ,ctp-mantle)
                (vertical-border :foreground ,ctp-mantle)
                ;; solaire-mode
@@ -955,7 +956,7 @@ Must be one of `mocha`, `macchiato`, `frappe`, or `latte`"
                (yard-directive-face :inherit font-lock-builtin-face)
 
                ;; page-break-lines-mode
-               (page-break-lines :foreground ,surface0)))
+               (page-break-lines :foreground ,ctp-surface0)))
 
   (apply #'custom-theme-set-faces
          'catppuccin
