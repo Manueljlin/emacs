@@ -955,7 +955,7 @@ Must be one of `mocha`, `macchiato`, `frappe`, or `latte`"
                (yard-directive-face :inherit font-lock-builtin-face)
 
                ;; page-break-lines-mode
-               (page-break-lines (:foreground surface0))))
+               (page-break-lines :foreground ,surface0)))
 
   (apply #'custom-theme-set-faces
          'catppuccin
